@@ -8,7 +8,7 @@
     color: #FEA116 !important;
     padding: 5px 10px;
 }
-
+ 
 .hero{
     background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
     background-size: cover;
@@ -81,6 +81,23 @@
 
 .about img:hover {
     transform: translateX(-20px);
+}
+.chef-img {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important; 
+}
+
+.chef-card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);   
+}
+.chef-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(3, 2, 2, 0.7);
 }
 .contact{
     background-color: rgb(56, 66, 53);
